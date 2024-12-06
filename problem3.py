@@ -23,3 +23,15 @@
  Enter password: password
  Access denied
 """
+rn = "admin"
+un = str(input("Enter your username"))
+if un == rn:
+    rpw = "12345password"
+    pw = str(input("Enter your password"))
+
+    if rpw == pw:
+        print("access granted")
+    else:
+        print("access denied")
+else:
+    print("invalid user")

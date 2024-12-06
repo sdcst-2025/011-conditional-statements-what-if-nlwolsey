@@ -31,3 +31,12 @@ Enter a number: 10000
 
 
 """
+x = int(input("Enter any number"))
+if 0<=x<10:
+    print("The number is 0 or a number up to 10")
+elif 10<=x<100:
+    print("The number is 10 or a number up to 100")
+elif 100<=x<1000:
+    print("The number is 100 or a number up to 1000")
+elif 1000<=x:
+    print("The number is equal to 1000 or is larger than 1000")
